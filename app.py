@@ -5,9 +5,9 @@ import streamlit as st
 import tempfile
 from pathlib import Path
 import traceback
-from utils.pdf_processor import PDFProcessor
-from utils.ocr_processor import OCRProcessor
-from utils.word_generator import WordGenerator
+import PDFProcessor
+import OCRProcessor
+import WordGenerator
 
 def main():
     st.title("📄 PDF to Word Converter")
